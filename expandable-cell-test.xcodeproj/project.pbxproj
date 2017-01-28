@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		213212AD1E3C62030055FA20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213212AC1E3C62030055FA20 /* AppDelegate.swift */; };
-		213212AF1E3C62030055FA20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213212AE1E3C62030055FA20 /* ViewController.swift */; };
 		213212B21E3C62030055FA20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213212B01E3C62030055FA20 /* Main.storyboard */; };
 		213212B41E3C62030055FA20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 213212B31E3C62030055FA20 /* Assets.xcassets */; };
 		213212B71E3C62030055FA20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213212B51E3C62030055FA20 /* LaunchScreen.storyboard */; };
+		213212BF1E3C64860055FA20 /* FormTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213212BE1E3C64860055FA20 /* FormTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		213212A91E3C62030055FA20 /* expandable-cell-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "expandable-cell-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		213212AC1E3C62030055FA20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		213212AE1E3C62030055FA20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		213212B11E3C62030055FA20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		213212B31E3C62030055FA20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		213212B61E3C62030055FA20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		213212B81E3C62030055FA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		213212BE1E3C64860055FA20 /* FormTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				213212AC1E3C62030055FA20 /* AppDelegate.swift */,
-				213212AE1E3C62030055FA20 /* ViewController.swift */,
 				213212B01E3C62030055FA20 /* Main.storyboard */,
 				213212B31E3C62030055FA20 /* Assets.xcassets */,
 				213212B51E3C62030055FA20 /* LaunchScreen.storyboard */,
 				213212B81E3C62030055FA20 /* Info.plist */,
+				213212BE1E3C64860055FA20 /* FormTableViewController.swift */,
 			);
 			path = "expandable-cell-test";
 			sourceTree = "<group>";
@@ -137,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				213212AF1E3C62030055FA20 /* ViewController.swift in Sources */,
 				213212AD1E3C62030055FA20 /* AppDelegate.swift in Sources */,
+				213212BF1E3C64860055FA20 /* FormTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
